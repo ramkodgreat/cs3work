@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+{% block body %}
+<!-- PHOTO GALLERY -->
+<section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <p class="text-center">Check out our photos</p>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/1" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="http://lorempixel.com/600/600/business/1" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/2" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="http://lorempixel.com/600/600/business/2" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/3" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="http://lorempixel.com/600/600/business/3" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/4" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="http://lorempixel.com/600/600/business/4" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/600/600/business/5" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="http://lorempixel.com/600/600/business/5" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/6" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="http://lorempixel.com/600/600/business/6" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAFF SECTION -->
+  <section id="staff" class="py-5 text-center bg-dark text-white">
+    <div class="container">
+      <h1>Board of trustees</h1>
+      <hr>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/bg2.jpg" alt="" class="img-fluid rounded-circle mb-2">
+          <h4> Izang </h4>
+          <small>Marketing Manager</small>
+      </div>
+        <div class="col-md-3">
+          <img src="img/lgclc.jpg" alt="" class="img-fluid rounded-circle mb-2">
+          <h4>Sara Williams</h4>
+          <small>Lady Captain</small>
+        </div>
+        <div class="col-md-3">
+          <img src="img/03.jpg" alt="" class="img-fluid rounded-circle mb-2">
+          <h4>John </h4>
+          <small><CEO></small>
+        </div>
+        <div class="col-md-3">
+          <img src="img/gl.jpg" alt="" class="img-fluid rounded-circle mb-2">
+          <h4>Gov Lalong</h4>
+          <small>Patron</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock  %}
